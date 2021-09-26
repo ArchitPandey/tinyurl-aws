@@ -1,0 +1,40 @@
+.body {
+    background-color: darkgray;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+    background-color: blue;
+}
+
+h1 {
+    margin-left: 40%;
+}
+
+.longURLTextArea {
+    display: block;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    margin-top: 2px;
+    border-style: none;
+    border-radius: 2px;
+}
+
+.shortURLDiv {
+    margin-top: 5px;
+}
+
+.shortURLTextArea {
+    display: block;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+}
