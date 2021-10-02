@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://archit-mysql-rds.c7kjgssdxmwq.us-west-2.rds.amazonaws.com/db?credentialType=AWS-IAM&useSsl&serverSslCert=classpath:rds-combined-ca-bundle.pem
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: iamUser
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      maxLifeTime: 30000
