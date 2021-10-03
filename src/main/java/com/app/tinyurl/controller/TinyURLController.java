@@ -19,7 +19,7 @@ public class TinyURLController {
     public void testEndPoint(){
         try{
             log.info("In test end point;");
-            this.jdbcTemplate.execute("SELECT CURRENT_TIMESTAMP ;");
+            this.jdbcTemplate.execute("SELECT 1 FROM DUAL;");
         } catch(Exception e) {
             log.error("Exception in testEndPoint "+e.getMessage());
             throw e;
